@@ -290,6 +290,10 @@ header .header-mobile {
     opacity: .8
 }
 
+.header-menu li.easter_egg a {
+    color: #edf4ed;
+}
+
 aside#sidebar {
     float: right;
     font-size: 14px;
@@ -326,13 +330,13 @@ aside#sidebar a.button {
 }
 
 #content-wrap {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 20px;
     min-height: calc(100vh - 310px)
 }
 
 #content-wrapper {
-    margin-top: 80px;
+    margin-top: 90px;
     margin-bottom: 20px;
     min-height: calc(100vh - 160px)
 }
@@ -452,7 +456,8 @@ aside#sidebar a.button {
     margin-right: 10px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    border: 0.5px solid rgba(0,0,0,.1);
 }
 
 .nav-item .nav-name {
