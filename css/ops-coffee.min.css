@@ -239,10 +239,9 @@ header .header-mobile {
 
 .header .site-logo {
     float: left;
-    width: 36px;
-    height: 36px;
-    margin-top: 19px;
-    margin-right: 8px;
+    width: 28px;
+    height: 28px;
+    margin-top: 27px
 }
 
 .header .site {
